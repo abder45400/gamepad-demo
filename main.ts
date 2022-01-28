@@ -23,12 +23,6 @@ control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EV
         } else if (control.eventValue() == 9) {
             motor.motorStopAll()
             basic.showString("1")
-        } else if (control.eventValue() == 11) {
-            basic.showString("2")
-        } else if (control.eventValue() == 13) {
-            basic.showString("3")
-        } else if (control.eventValue() == 15) {
-            basic.showString("4")
         } else {
             basic.clearScreen()
         }
@@ -41,4 +35,3 @@ lastValue = 0
 vitesseM1 = 0
 vitesseM2 = 0
 bluetooth.startLEDService()
-basic.showString("GAMEPAD DEMO")
