@@ -34,9 +34,11 @@ control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EV
         }
     }
 })
-let vitesseM1 = 0
 let vitesseM2 = 0
+let vitesseM1 = 0
 let lastValue = 0
 lastValue = 0
+vitesseM1 = 0
+vitesseM2 = 0
 bluetooth.startLEDService()
 basic.showString("GAMEPAD DEMO")
