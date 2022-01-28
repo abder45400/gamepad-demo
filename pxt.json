@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "bluetooth": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "motor": "github:DFRobot/pxt-motor#2cdf17586556c5a532782aa436c516ae50f5f316"
     },
     "files": [
         "main.blocks",
@@ -18,7 +19,7 @@
         "branch": "v1.1.78",
         "tag": "v1.1.78",
         "commits": "https://github.com/Microsoft/pxt-microbit/commits/21e94c550395199a2900af1b8dc75baed5ca7105",
-        "target": "4.0.16",
+        "target": "4.0.17",
         "pxt": "4.1.41",
         "targetId": "microbit"
     },
